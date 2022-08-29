@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "resource-accordian-client-side-solution",
+    "id": "ed497064-195b-4389-83f7-f1d231d6079d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "resource-accordian description"
+      },
+      "longDescription": {
+        "default": "resource-accordian description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "resource-accordian Feature",
+        "description": "The feature that activates elements of the resource-accordian solution.",
+        "id": "a86933ce-2283-453a-8aad-f4c530ba84a6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/resource-accordian.sppkg"
+  }
+}

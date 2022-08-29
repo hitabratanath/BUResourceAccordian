@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "resouce-accordian-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/resouceAccordian/ResouceAccordianWebPart.js",
+          "manifest": "./src/webparts/resouceAccordian/ResouceAccordianWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ResouceAccordianWebPartStrings": "lib/webparts/resouceAccordian/loc/{locale}.js"
+  }
+}

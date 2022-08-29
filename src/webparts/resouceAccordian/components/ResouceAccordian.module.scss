@@ -1,0 +1,117 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.resouceAccordian {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.accordianContainer {
+  background-color: #eaecf1;
+  border-radius: 5px;
+  padding: 20px;
+  width: 32%;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.plus {
+  background-color: #007bff;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.inner {
+  margin-bottom: 5px;
+}
+
+.heading {
+  color: #152c73;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.comments {
+  color: #007bff;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.subContainer a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.subContainer a:hover {
+  text-decoration: underline;
+  color: #152c73;
+}
+
+.subitems {
+  margin-bottom: 10px;
+}
+
+.topheading {
+  color: #152c73;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.itemContainer {
+  margin-bottom: 15px;
+}
