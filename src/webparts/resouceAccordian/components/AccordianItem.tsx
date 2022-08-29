@@ -14,7 +14,7 @@ const AccordianItem = ({ item }) => {
                 </div>
             </div>
             <div className={styles.subContainer}>
-                {show && item.map(val => <a className={styles.subitems} href={val.RedirectionLink.Url}>{val.SubTitle}</a>)}
+                {show && item.map(val => <a className={styles.subitems} href={val.RedirectionLink} target='_blank'>{val.SubTitle}</a>)}
             </div>
         </div>
     )

@@ -51,11 +51,13 @@ const ResouceAccordian = ({ listname, topheading }) => {
       setProcessedData(finalArray)
     }
   }, [data])
+  console.log(data);
+
   // --------------------------------------------------------------------------------------------------
   async function createColumns() {
     try {
       let fieldsToCreate = [
-        '<Field Type="URL" Name="RedirectionLink" DisplayName="RedirectionLink" Required="TRUE"><Default></Default></Field>',
+        '<Field Type="Text" Name="RedirectionLink" DisplayName="RedirectionLink" Required="TRUE"><Default></Default></Field>',
         '<Field Type="Number" Name="SortOrder" DisplayName="SortOrder" Required="TRUE"><Default></Default></Field>',
         '<Field Type="Text" Name="SubTitle" DisplayName="SubTitle" Required="TRUE"><Default></Default></Field>',
       ];
